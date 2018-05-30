@@ -1,5 +1,5 @@
 ﻿# Schiffe versenken - a VoIP framework as an experimental environment for lombard-effect testing
-"Schiffe versenken" is the german translation of the game "Battleships". The purpose of this framework was to implement an experimental environmont to test the lombard-effect and one possible test situation was this game. The software makes no claim to be perfect or completely finished. We hope that the code can help people that are trying to accomplish something similar. Please feel free to contact us if you have any questions regarding the project. 
+"Schiffe versenken" is the german translation of the game "Battleships". The purpose of this framework was to implement an experimental environmont to test the lombard-effect and one possible test situation was this game. The software makes no claim to be perfect or completely finished. We hope that the code can help people that are trying to accomplish something similar. Please feel free to contact us (@chronoB, @breizhn) if you have any questions regarding the project. 
 
 ### Overview
 This C++-Framework can be used to create a Voice-over-IP-Chat between two clients.
