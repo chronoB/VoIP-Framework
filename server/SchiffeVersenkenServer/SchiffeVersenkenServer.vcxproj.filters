@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Portaudio">
+      <UniqueIdentifier>{a8f43f0b-0029-4052-812b-0ee98998e30c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Portaudio\Header Files">
+      <UniqueIdentifier>{ff8f9a2a-0d33-4eec-a10f-684c43f1ac68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Portaudio\Source Files">
+      <UniqueIdentifier>{81d0825f-5e22-4a52-aa1b-03289163a6ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Effects">
+      <UniqueIdentifier>{20af5b46-dd90-4e04-8d4e-0c0dbbf614e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Effects\Header Files">
+      <UniqueIdentifier>{f7520fa0-c46f-4bef-ab29-54171d6b6a12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Effects\Source Files">
+      <UniqueIdentifier>{3b5d8a95-b1f3-4f5b-a06b-99edc89dbb0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Networking">
+      <UniqueIdentifier>{b96945ad-7104-4db5-818a-256db011425c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Networking\Header Files">
+      <UniqueIdentifier>{b363fda3-6233-46d2-b50f-eb13f110403c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Networking\Source Files">
+      <UniqueIdentifier>{31cab236-f8cc-4971-a075-edd9eb877106}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gui Things">
+      <UniqueIdentifier>{af9bd73c-fb00-4ee7-8584-a6dc4f080a7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gui Things\Source Files">
+      <UniqueIdentifier>{991b7f7e-53e4-43e2-b588-f9ef46653979}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gui Things\Header Files">
+      <UniqueIdentifier>{f7f2f76c-2c2a-452d-bff3-c6ac8f81d823}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Wav Handling">
+      <UniqueIdentifier>{cc5bfa2a-3199-4647-ad6c-430e4a741b10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mixer, Slot and Buffer">
+      <UniqueIdentifier>{7d8f5044-761c-42f4-9786-76b65cda2ea4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mixer, Slot and Buffer\Source Files">
+      <UniqueIdentifier>{37c596a5-0150-4d2d-9f21-bfae2dd67596}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mixer, Slot and Buffer\Header Files">
+      <UniqueIdentifier>{8161f03b-249a-44b0-9e34-08958cbb87df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AudioCore">
+      <UniqueIdentifier>{bedf5f39-f570-4769-8165-19f8f6aa4815}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="audio_parameter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pa_asio.h">
+      <Filter>Portaudio\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pa_win_wasapi.h">
+      <Filter>Portaudio\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pa_win_waveformat.h">
+      <Filter>Portaudio\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pa_win_wmme.h">
+      <Filter>Portaudio\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="portaudio.h">
+      <Filter>Portaudio\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PortaudioPlus.h">
+      <Filter>Portaudio\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FaerbungDummy.h">
+      <Filter>Effects\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="overdrive.h">
+      <Filter>Effects\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ReturnEffect.h">
+      <Filter>Effects\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Delay.h">
+      <Filter>Effects\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioOutMixer.h">
+      <Filter>Mixer, Slot and Buffer\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectMixerClass.h">
+      <Filter>Mixer, Slot and Buffer\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectSlot.h">
+      <Filter>Mixer, Slot and Buffer\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkReciever.h">
+      <Filter>Networking\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkSender.h">
+      <Filter>Networking\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PASupplier.h">
+      <Filter>Portaudio\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIReciever.h">
+      <Filter>Gui Things\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="json.hpp">
+      <Filter>Gui Things\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GainClass.h">
+      <Filter>Effects\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WavHandling.h">
+      <Filter>Wav Handling</Filter>
+    </ClInclude>
+    <ClInclude Include="sndfile.h">
+      <Filter>Wav Handling</Filter>
+    </ClInclude>
+    <ClInclude Include="Buffer.h">
+      <Filter>Mixer, Slot and Buffer\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Audioprocessor.h">
+      <Filter>AudioCore</Filter>
+    </ClInclude>
+    <ClInclude Include="addnoise.h">
+      <Filter>Effects\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="debugPrint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="controlBuffer.h">
+      <Filter>Mixer, Slot and Buffer\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="bandpass.h">
+      <Filter>Effects\Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="portaudio.lib">
+      <Filter>Resource Files</Filter>
+    </Library>
+    <Library Include="libsndfile-1.lib">
+      <Filter>Resource Files</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PortaudioPlus.cpp">
+      <Filter>Portaudio\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="addnoise.cpp">
+      <Filter>Effects\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Delay.cpp">
+      <Filter>Effects\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FaerbungDummy.cpp">
+      <Filter>Effects\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="overdrive.cpp">
+      <Filter>Effects\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ReturnEffect.cpp">
+      <Filter>Effects\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioOutMixer.cpp">
+      <Filter>Mixer, Slot and Buffer\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectMixerClass.cpp">
+      <Filter>Mixer, Slot and Buffer\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectSlot.cpp">
+      <Filter>Mixer, Slot and Buffer\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NetworkReciever.cpp">
+      <Filter>Networking\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NetworkSender.cpp">
+      <Filter>Networking\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PASupplier.cpp">
+      <Filter>Portaudio\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIReciever.cpp">
+      <Filter>Gui Things\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GainClass.cpp">
+      <Filter>Effects\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WavHandling.cpp">
+      <Filter>Wav Handling</Filter>
+    </ClCompile>
+    <ClCompile Include="Buffer.cpp">
+      <Filter>Mixer, Slot and Buffer\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Audioprocessor.cpp">
+      <Filter>AudioCore</Filter>
+    </ClCompile>
+    <ClCompile Include="controlBuffer.cpp">
+      <Filter>Mixer, Slot and Buffer\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="bandpass.cpp">
+      <Filter>Effects\Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>
